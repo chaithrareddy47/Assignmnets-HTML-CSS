@@ -4,23 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
-      <h1>My Awesome Blog</h1>
+      <div class="nav-bar">
+        <h1>My Awesome Blog</h1>
 
-      <a href="#">Home</a> | <a href="#">About</a> |
+      <div class="nav-links">
+        <a href="#">Home</a> | <a href="#">About</a> |
       <a href="#">Contact</a>
+      </div>
+      </div>
 
       <hr />
 
-      <h2>My First Blog Post</h2>
-      <p>
+    <div class="blog">
+        <h2 class="heading-2">My First Blog Post</h2>
+        <hr class="line1">
+      <p class="para">
         This is my first paragraph of my blog post. I'm excited to share my
         thoughts and experiences with you all. In this post, I will be talking
         about my day.
       </p>
-      <p>
+      
+      <p class="para">
         Let's start with my day! I'm so grateful that I have taken the
         initiative to start my projects and made a big step toward achieving my
         dreams with Sheryain School. I'm truly thankful for this journey. I
@@ -28,7 +36,8 @@
         positive tone for the day.
       </p>
       <img src="./img-01.jpg" alt="coffee-journal" width="400px" height="300px">
-      <p>Here is an image related to my meditation and coffee-journal</p>
+     
+      <p class="coffee-journal">Here is an image related to my meditation and coffee-journal</p>
 
       <h4>Things I manifested in meditation</h4>
       <ul>
@@ -38,9 +47,13 @@
         <li>Discussion of Projects</li>
       </ul>
       <hr>
-      <h3>My Second Blog Post - Favorite Foods</h3>
-      <p>In this post, I want to talk about my favorite foods! I really enjoy trying different cuisines and exploring new flavors. </p>
-      <p>Here are some of my favorite foods:
+    </div>
+
+     <div class="container-1">
+       <h3>My Second Blog Post - Favorite Foods</h3>
+       <hr>
+      <p class="post">In this post, I want to talk about my favorite foods! I really enjoy trying different cuisines and exploring new flavors. </p>
+      <p class="post">Here are some of my favorite foods:
       </p>
       <ol type="1">
         <li>Pizza
@@ -59,12 +72,17 @@
             </ol>
         </li>
       </ol>
-      <p>These are just a few of my favorites. What are yours?</p>
+      <p class="post">These are just a few of my favorites. What are yours?</p>
 
       <br>
-      That's all for this post! Thanks for reading!
-      <hr>
-      <p>&copy;2025 My Simple Blog. All rights reserved.</p>
+<p class="post">
+      That's all for this post! Thanks for reading!</p>
+    </div>
+    <hr class="hr1">
+     <div class="container-2">
+       <p>&copy;2025 My Simple Blog. All rights reserved.</p>
+
+     </div>
     </div>
   </body>
 </html>

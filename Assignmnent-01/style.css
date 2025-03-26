@@ -1,0 +1,92 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+    background-color:rgb(237, 236, 236);
+    
+
+}
+
+
+.nav-links{
+    background-color: #3296D7;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.blog{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+}
+.heading-2{
+padding: 10px;
+color: #2A3A4D;
+}
+
+.line1{
+    border-style: dashed;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.para{
+    padding: 10px;
+}
+img{
+    background-position: center;
+    background-size: cover;
+   border-radius: 10px;
+   text-align: center;
+   margin: 10px auto;
+   display: block;
+   
+
+}
+.coffee-journal{
+    padding: 10px;
+}
+h4{
+    padding: 10px;
+}
+
+ul , ol{
+    padding: 10px 50px;
+}
+li{
+    padding: 2px;
+}
+
+.container-1{
+ background-color:white;
+ border-radius: 10px;
+ padding: 10px;
+ margin:  20px 0;
+ 
+}
+ h3{
+    color: #2A3A4D;
+    margin: 10px;
+ }
+ .post{
+    margin: 10px;
+ }
+ .container-2{
+    background-color: #323232;
+    color: white;
+    padding: 10px;
+ }
+ .hr1{
+ margin-bottom: 10px;
+ }
